@@ -1,11 +1,16 @@
 import React from "react";
 
-function Links({ github, linkedin }) {
+function Links() {
   return (
     <div>
       <h3>Links</h3>
-      <a href={github}>{github}</a>
-      <a href={linkedin}>{linkedin}</a>
+      <a href="https://github.com/liza" target="_blank" rel="noreferrer">
+        https://github.com/liza
+      </a>
+      <br />
+      <a href="https://www.linkedin.com/in/liza/" target="_blank" rel="noreferrer">
+        https://www.linkedin.com/in/liza/
+      </a>
     </div>
   );
 }
